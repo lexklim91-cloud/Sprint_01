@@ -1,6 +1,6 @@
 str_time = '1h 45m,360s,25m,30m 120s,2h 60s'
 
-#str_time = str_time.replace('s', '/60').replace('h','*60').replace('m','').replace(' ', '+')
+
 str_time = str_time.replace(' ', ',')
 lst_time = str_time.split(',')
 h = 0 # часы
